@@ -1,0 +1,30 @@
+<header class="header">
+<nav class="navbar navbar-style">
+    <div class="container">
+        <div class="navbar-list">
+           <a routerLink="/body-content" (click)="homepage()"><img class="logo" src="https://www.eci.gov.in/newimg/eci-logo.svg"></a>
+            <ul>
+                <li>
+                  <a routerLink="/body-content" (click)="homepage()" routerLinkActive="active">Home</a>
+                </li>
+                <li>
+                  <a href="#">About Us</a>
+                </li>
+                <li>
+                  <a href="#">Careers</a>
+                </li>
+                <li>
+                  <a href="#">Contact Us</a>
+                  </li>
+                </ul>
+        </div>
+        <div class="button">
+            <a routerLink = "/login" routerLinkActive="active" (click)="goToLogin()"class="btn btn-primary">Login</a>
+            <a routerLink = "/sign-up" routerLinkActive="active" (click)="goToSignup()" class="btn btn-dark">Sign Up</a>
+        </div>
+    </div>    
+  </nav>
+</header>
+
+
+
